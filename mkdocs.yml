@@ -100,17 +100,17 @@ markdown_extensions:
 plugins:
   - search
   - i18n:
-        default_language: en
-        languages:
-          en:
-            name: English
-            build: true
-          kr:
-            name: '한국어'
-            build: true
-            site_name: 'EKS 모범 사례 가이드'
-        nav_translations:
-          kr:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          build: true
+          name: English
+        - locale: kr
+          name: '한국어'
+          build: true
+          site_name: 'EKS 모범 사례 가이드'
+          nav_translations:
             Guides: '가이드'
             Introduction: '소개'
             Security: '보안'
