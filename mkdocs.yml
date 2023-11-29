@@ -102,7 +102,6 @@ plugins:
   - i18n:
       default_language: en
       languages:
-        # default: true
         en:
           name: English  
           build: true
