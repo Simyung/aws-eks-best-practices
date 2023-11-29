@@ -106,7 +106,7 @@ plugins:
           default: true
           build: true
           name: English
-        - locale: kr
+        - locale: ko
           name: '한국어'
           build: true
           site_name: 'EKS 모범 사례 가이드'
